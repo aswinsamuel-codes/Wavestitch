@@ -1,0 +1,20 @@
+# Wavestitch repository ignores
+
+# Local caches, temp files, test output (npm/electron caches, smoke tests) — large and machine-specific
+.cache/
+
+# Your test audio: copyrighted music must not be pushed to a repository
+testing audio/
+
+# App build output, dependencies and local app data (library DB, AI models, stems, logs)
+app/node_modules/
+app/out/
+app/dist/
+app/.dev-data/
+app/models/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

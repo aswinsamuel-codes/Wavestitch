@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+  <!-- Soundloom logo: an audio waveform thread passing through the eye of a needle (weaving sound). -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2c31"/>
+      <stop offset="1" stop-color="#17171a"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d8d96"/>
+      <stop offset="0.45" stop-color="#f4f4f7"/>
+      <stop offset="1" stop-color="#a3a3ac"/>
+    </linearGradient>
+    <linearGradient id="thread" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2b33d"/>
+      <stop offset="1" stop-color="#ffd27a"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <!-- waveform thread: behind the needle -->
+  <path d="M6 37 C9 37 10 29 12.5 29 S15.5 45 18 45 S21.5 22 24.5 22 S28 51 31 51 S34.5 26 37.5 26 S41 41 43 39 S48 24 54.6 17.4"
+        fill="none" stroke="url(#thread)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- needle -->
+  <g transform="translate(45 35) rotate(28)">
+    <path d="M-2.4 -25.5 Q0 -29 2.4 -25.5 L2.3 17 L0 27.5 L-2.3 17 Z" fill="url(#steel)" stroke="#55555c" stroke-width="0.6"/>
+    <ellipse cx="0" cy="-20.2" rx="0.95" ry="3.4" fill="#1d1d21"/>
+  </g>
+  <!-- thread end coming out of the eye: in front of the needle -->
+  <path d="M54.6 17.4 C57.5 14.6 60 15.5 59.4 19.5" fill="none" stroke="url(#thread)" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
